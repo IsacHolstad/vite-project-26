@@ -9,6 +9,7 @@ module.exports = {
                 // => @media (min-width: 375px) { ... }
                 'm-mobile': '480', 
                 // => @media (min-width: 480px) { ... }
+                'desktop': {'min': '768px', 'max': '1440px'},
               },
         },
     },
